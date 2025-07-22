@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Main container for the weather app -->
+  <div class="container">
+    <h2>Weather Checker 🌤️</h2>
+
+    <!-- Input field to type city name -->
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+
+    <!-- Button to fetch weather data -->
+    <button onclick="getWeather()">Get Weather</button>
+
+    <!-- Section to show the fetched weather data -->
+    <div class="weather-info" id="weatherInfo"></div>
+
+    <!-- Section to show history -->
+    <div class="history" id="history"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
